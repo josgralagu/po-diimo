@@ -1,0 +1,16 @@
+{
+  "name": "po-diimo",
+  "version": "0.0.1",
+  "description": "pom with wdio",
+  "private": true,
+  "scripts": {
+    "test": "wdio run src/config/wdio.conf.js"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^9.15.0",
+    "@wdio/local-runner": "^9.15.0",
+    "@wdio/mocha-framework": "^9.15.0",
+    "@wdio/spec-reporter": "^9.15.0",
+    "edgedriver": "^6.1.1"
+  }
+}
