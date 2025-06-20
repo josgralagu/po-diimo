@@ -1,6 +1,6 @@
 const BaseComponent = require ('./../common/base.component')
 
-class ListHeaderComponent extends BaseComponent {
+class DoctorListHeader extends BaseComponent {
 constructor() {
     super('.specialization-types')
 }
@@ -10,4 +10,4 @@ constructor() {
     }
 }
 
-module.exports = ListHeaderComponent;
+module.exports = DoctorListHeader;
